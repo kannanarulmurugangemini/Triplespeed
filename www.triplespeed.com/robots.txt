@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /townhall
+
+# The town-hall deck is an internal presentation — keep crawlers out.

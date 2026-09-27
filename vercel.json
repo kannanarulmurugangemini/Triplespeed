@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/_next/image",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/api/upload",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/upload",
+      "dest": "/server.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/www.triplespeed.com/$1"
+    }
+  ]
+}

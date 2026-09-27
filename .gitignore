@@ -1,0 +1,6 @@
+node_modules/
+.firebase/
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+*.log
